@@ -1,0 +1,33 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 
+  Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css"
+      href="{{ staticfile('style.css') }}">
+  <link rel="stylesheet" type="text/css"
+      href="{{ staticfile('procedure.css') }}">
+  <title>Authorization Blockchain</title>
+</head>
+
+<body>
+    <h1>Authorization Blockchain Interface</h1>
+    <h2>Policy Setting Endpoint</h2>
+    <p>The policy has been successfully set.</p><br>
+    <p>resource_id: {{ rid }}</p>
+    <p>Issuer: {{ iss }}</p>
+    <p>Subject: {{ sub }}</p>
+    <p>Audience: {{ aud }}</p>
+    <br>
+    <br>
+    <blockquote>
+    <u>Procedure 07</u><br>
+    The authorization policy setting is complete.
+    You can confirm that the settings are displayed on the page.<br>
+    </p>
+    </blockquote>
+    <p><img src="/static/images/rreg07.png" width="673" height="400"></p>
+</body>
+
+</html>

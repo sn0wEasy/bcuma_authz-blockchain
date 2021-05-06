@@ -1,0 +1,44 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 
+  Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css"
+        href="{{ staticfile('style.css') }}">
+    <link rel="stylesheet" type="text/css"
+        href="{{ staticfile('procedure.css') }}">
+    <title>Authorization Blockchain</title>
+</head>
+
+<body>
+    <h1>Authorization Blockchain Interface</h1>
+    <h2>PAT Issuing Endpoint</h2>
+    <p>Generate the PAT based on the unique IDs of the FL-Submitter and the FL-Server.</p><br>
+
+    <form action="#" method="post">
+        <p>FL-Server User ID:
+            <input type="text" name="uid"></p>
+        <p>Resource Owner's ID:
+            <input type="text" name="roId"></p>
+        <p>Resource Server's ID:
+            <input type="text" name="rsId"></p>
+        <br>
+        <input type="hidden" name="timestamp" value="1595230979">
+        <input type="hidden" name="timeSig"
+            value="vF9Oyfm+G9qS4/Qfns5MgSZNYjOPlAIZVECh2I5Z7HHgdloy5q7gJoxi7c1S2/ebIQbEMLS05x3+b0WD0VJfcWSUwZMHr3jfXYYwbeZ1TerKpvfp1j21nZ+OEP26bc28rLRAYZsVQ4Ilx7qp+uLfxu9X9x37Qj3n0CI2TEiKYSSYDQ0bftQ/3iWSSoGjsDljh9bKz1eVL911KeUGO+t/9IkB6LtZghdbIlnGISbgrVGoEOtGHi0t8uD2Vh/CRyBe+XnQV3HQtkjddLQitAesKTYunK1Ctia3x7klVjRH9XiJ11q6IbR8gz7rchdHYZe6HP+w/LyWMS5z6M26AXQrVw==">
+        <button type="submit" value="issue">Issue</button>
+    </form>
+    <br>
+    <br>
+    <blockquote>
+    <p><u>Procedure 03</u><br>
+    Input the information necessary for PAT generation, and execute PAT generation and assignment. (2)<br>
+    </p>
+    </blockquote>
+
+    <p><img src="/static/images/rreg03.png" width="673" height="400"></p>
+
+</body>
+
+</html>
